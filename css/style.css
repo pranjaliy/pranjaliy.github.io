@@ -21,7 +21,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -168,8 +168,9 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	-webkit-border-radius: 50%;
@@ -180,7 +181,7 @@ figure figcaption {
 }
 
 #colorlib-aside .author-img img{
-	height: 100%; 
+	height: 100%;
     object-fit: contain;
 	padding: 30px;
 }
@@ -578,7 +579,7 @@ body.offcanvas .colorlib-nav-toggle {
 		padding-top: 2em;
 		padding-bottom: 0em;
 	}
-	
+
 	.colorlib-blogs {
 		display: none;
 	}
@@ -2125,7 +2126,7 @@ span {
 	width: 25%;
 	padding: 5px;
   }
-  
+
   /* Clearfix (clear floats) */
   .row-image::after {
 	content: "";
@@ -2170,7 +2171,7 @@ span {
 	--btn-hover-bg: #d5d9f6;
 	--btn-color: #1e2641;
   }
-  
+
   footer {
 	font-size: 13px;
 	background: var(--footer-bg);
@@ -2181,25 +2182,25 @@ span {
 	gap: 1em;
 	border-radius: 5px;
   }
-  
+
   footer ul {
 	list-style: none;
 	padding-left: 0px;
   }
-  
+
   .col {
 	flex: 1;
 	margin: 0 35px;
 	display: inline-grid;
   }
-  
+
   .col-title {
 	color: var(--color);
 	font-size: 1.1em;
 	font-weight: 600;
 	padding: 0.5em 0;
   }
-  
+
   .col-list a {
 	color: var(--color-smooth);
 	text-decoration: none;
@@ -2207,12 +2208,12 @@ span {
 	font-weight: 400;
 	cursor: pointer;
   }
-  
+
   .col-list a:hover,
   .col-list a:focus {
 	text-decoration: underline;
   }
-  
+
   @media screen and (max-width: 750px) {
 	footer {
 	  padding: 2em;
@@ -2239,4 +2240,3 @@ span {
     text-align: right;
     font-weight: 600;
 }
-  
