@@ -71,7 +71,7 @@ export default {
 		},
 	],
 	projects: {
-		web: [
+		ml: [
 			{
 				projectName: "Programming Diaries",
 				image: "images/programmingdiaries.png",
@@ -111,7 +111,7 @@ export default {
 				techStack: ["HTML", "Bootstrap", "JavaScript"],
 			},
 		],
-		software: [
+		nn: [
 			{
 				projectName: "Pizza Ordering ChatBot",
 				image: "images/pizzaorderchatbot.png",
@@ -138,7 +138,7 @@ export default {
 				techStack: ["Tkinter", "Openxlpy", "Python"],
 			},
 		],
-		android: [
+		other: [
 			{
 				projectName: "NITW-CSE",
 				image: "images/nitwcse.jpg",
@@ -156,7 +156,7 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 		],
-		freelance: [
+		statistics: [
 			{
 				projectName: "SnylloAir.com",
 				image: "images/snylloair.png",
@@ -226,9 +226,28 @@ export default {
 	],
 	education: [
 		{
-			title: "Bachelors in Computer Science and Engineering",
+			title: "Master's of Science in Industrial Engineering",
 			duration: "",
-			subtitle: "National Institute of Technology, Warangal",
+			subtitle: "Penn State, University Park",
+			details: [
+				"Qualified GATE-2020.",
+				"Active Competitive Programmer with CodeChef Rating 1841*.",
+				"Received 500+ stars and 300+ forks on GitHub projects.",
+			],
+			tags: [
+				"Data Structures & Algorithms",
+				"Operating Systems",
+				"Database Management System",
+				"Computer Networks",
+				"Compiler Designing",
+				"Cloud Computing",
+			],
+			icon: "graduation-cap",
+		},
+		{
+			title: "Bachelors of Science in Mechanical Engineering",
+			duration: "",
+			subtitle: "Pune University,IND",
 			details: [
 				"Qualified GATE-2020.",
 				"Active Competitive Programmer with CodeChef Rating 1841*.",
@@ -258,19 +277,19 @@ export default {
 	],
 	footer: [
 		{
-			label: "Dev Profiles",
+			label: "Pranjali's Profiles",
 			data: [
 				{
-					text: "Stackoverflow",
-					link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+					text: "Medium",
+					link: "https://medium.com/@misc-notes",
 				},
 				{
 					text: "GitHub",
-					link: "https://github.com/vinaysomawat",
+					link: "https://github.com/pranjaliy",
 				},
 				{
 					text: "LeetCode",
-					link: "https://leetcode.com/somawatvinay/",
+					link: "https://leetcode.com/pranjaliy/",
 				},
 			],
 		},
@@ -287,7 +306,7 @@ export default {
 				},
 				{
 					text: "Clone this page",
-					link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+					link: "https://github.com/pranjaliy/pranjaliy.github.io",
 				},
 			],
 		},
@@ -298,14 +317,7 @@ export default {
 					text: "Linkedin",
 					link: "https://www.linkedin.com/in/vinaysomawat/",
 				},
-				{
-					text: "Twitter",
-					link: "https://twitter.com/thesigmakid",
-				},
-				{
-					text: "Buy me a coffee",
-					link: "https://www.buymeacoffee.com/r194dME8y",
-				},
+
 			],
 		},
 		{
