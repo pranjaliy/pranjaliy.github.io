@@ -73,21 +73,20 @@ export default {
 	projects: {
 		ml: [
 			{
-				projectName: "Programming Diaries",
+				projectName: "Regression",
 				image: "images/programmingdiaries.png",
 				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-				preview: "https://programmingdiaries.herokuapp.com/",
+					"Bread and butter of Machine Learning",
+				preview: "https://github.com/pranjaliy/machine-learning/",
 				techStack: [
-					"Django",
-					"SQLite",
-					"Bootstrap",
-					"JavaScript",
-					"Heroku",
+					"Flask",
+					"Github",
+					"Visual Studio",
+					"Rest API",
 				],
 			},
 			{
-				projectName: "Find Your Bank",
+				projectName: "Classification",
 				image: "images/findyourbank.png",
 				summary:
 					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
@@ -95,7 +94,7 @@ export default {
 				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
 			},
 			{
-				projectName: "Web Portfolio",
+				projectName: "Decision Tree",
 				image: "images/portfolio.png",
 				summary:
 					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
@@ -103,7 +102,7 @@ export default {
 				techStack: ["HTML", "Bootstrap", "JavaScript"],
 			},
 			{
-				projectName: "Resume Builder",
+				projectName: "Unsupervised Learning",
 				image: "images/resume-builder.png",
 				summary:
 					"Browser based editor to build and download Resumes in a customizable templates.",
@@ -113,7 +112,7 @@ export default {
 		],
 		nn: [
 			{
-				projectName: "Pizza Ordering ChatBot",
+				projectName: "Image Classification",
 				image: "images/pizzaorderchatbot.png",
 				summary:
 					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
@@ -121,26 +120,10 @@ export default {
 					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
 				techStack: ["Dailogflow", "Firebase"],
 			},
-			{
-				projectName: "WhatsApp-Bot",
-				image: "images/whatsappbot.jpg",
-				summary:
-					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-				techStack: ["Selenium", "Chrome Webdriver", "Python"],
-			},
-			{
-				projectName: "Bill Generator",
-				image: "images/billgenerator.png",
-				summary:
-					"GUI to transfer data to excel sheets and generate bills on the local shops.",
-				preview: "https://github.com/vinaysomawat/Bill-Generator",
-				techStack: ["Tkinter", "Openxlpy", "Python"],
-			},
 		],
 		other: [
 			{
-				projectName: "NITW-CSE",
+				projectName: "NLP",
 				image: "images/nitwcse.jpg",
 				summary:
 					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
@@ -148,7 +131,7 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 			{
-				projectName: "CareerHigh-App",
+				projectName: "Time Series Modelling",
 				image: "images/carrerhigh.png",
 				summary:
 					"The Application display the webpages of website careerhigh.in in android devices.",
@@ -158,7 +141,7 @@ export default {
 		],
 		statistics: [
 			{
-				projectName: "SnylloAir.com",
+				projectName: "Hypothesis Testing",
 				image: "images/snylloair.png",
 				summary:
 					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
@@ -166,7 +149,7 @@ export default {
 				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
 			},
 			{
-				projectName: "Delivery+",
+				projectName: "Probability",
 				image: "images/AM-Logo-.png",
 				summary:
 					"Android Application to display website in android devices.",
@@ -178,56 +161,55 @@ export default {
 	},
 	experience: [
 		{
-			title: "Biofourmis India Pvt. Ltd.",
-			duration: "April 2022 - Present",
-			subtitle: "Software Engineer",
+			title: "Data Scientist",
+			duration: "October 2021 - Present",
+			subtitle: "Georgia Pacific LLC",
 			details: [
 				"Working on the products in the healthcare/digital therapeutics domain."
 			],
 			tags: [
-				"JavaScript",
-				"Angular",
-				"Bootstrap",
-				"Nodejs",
-				"Jenkins",
+				"PowerBi",
+				"Tableau",
+				"AmazonRedshift",
+				"DAX",
 			],
 			icon: " ",
 		},
 		{
-			title: "Novopay Solutions Pvt. Ltd.",
-			duration: "June 2020 - April 2022",
-			subtitle: "Software Engineer",
+			title: "Data Scientist",
+			duration: "Jan 2021 - Jun 2021",
+			subtitle: "Ahold Delhaize",
 			details: [
 				"Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
 				"Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
 				"Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
 			],
 			tags: [
-				"JavaScript",
-				"Angular",
-				"React",
-				"Bootstrap",
-				"Nodejs",
-				"Jenkins",
+				"NLP",
+				"BERT",
+				"Github",
+				"Spacy",
+				"NER",
+				"Pyspark",
 			],
 			icon: "qrcode",
 		},
 		{
-			title: "ThinkPedia LLP",
-			duration: "May 2019 - June 2019",
-			subtitle: "SDE Intern",
+			title: "Supply Chain Analyst",
+			duration: "Jun 2020 - Dec 2021",
+			subtitle: "Ahold Delhaize",
 			details: [
 				"Worked as a full stack developer to support tech team.",
 				"Developed a customer Web Application from scratch for social media management.",
 			],
-			tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+			tags: ["Azure"],
 			icon: "group",
 		},
 	],
 	education: [
 		{
 			title: "Master's of Science in Industrial Engineering",
-			duration: "",
+			duration: "Aug 2019 - Aug 2021",
 			subtitle: "Penn State, University Park",
 			details: [
 				"Qualified GATE-2020.",
@@ -246,7 +228,7 @@ export default {
 		},
 		{
 			title: "Bachelors of Science in Mechanical Engineering",
-			duration: "",
+			duration: "Aug 2015 - May 2019",
 			subtitle: "Pune University,IND",
 			details: [
 				"Qualified GATE-2020.",
@@ -263,17 +245,7 @@ export default {
 			],
 			icon: "graduation-cap",
 		},
-		{
-			title: "Class 11-12th in Science and Mathematics",
-			duration: "",
-			subtitle: "Board of Secondary Education, Rajasthan",
-			details: [
-				"Qualified JEE Advanced, Main & BITSAT.",
-				"Secured 99.5 percentile in Class 12th Boards Examinations.",
-			],
-			tags: ["Physics", "Chemistry", "Mathematics"],
-			icon: "book",
-		},
+
 	],
 	footer: [
 		{
