@@ -71,7 +71,7 @@ export default {
 		},
 	],
 	projects: {
-		mlProjects: [
+		ml: [
 			{
 				projectName: "Regression",
 				image: "images/programmingdiaries.png",

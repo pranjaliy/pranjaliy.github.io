@@ -298,10 +298,10 @@ populateSkills(data.skills, "skills");
 
 fetchBlogsFromMedium();
 
-populateProjects(data.projects.web, "ml-projects");
-populateProjects(data.projects.software, "nn-projects");
-populateProjects(data.projects.android, "other-projects");
-populateProjects(data.projects.freelance, "statistics-projects");
+populateProjects(data.projects.ml, "ml-projects");
+populateProjects(data.projects.nn, "nn-projects");
+populateProjects(data.projects.other, "other-projects");
+populateProjects(data.projects.statistics, "statistics-projects");
 
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.education, "education");

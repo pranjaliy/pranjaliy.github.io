@@ -170,19 +170,15 @@ figure figcaption {
 #colorlib-aside .author-img {
 	width: 250px;
 	height: 250px;
-	border-radius: 50%;
 	margin: 0 auto;
 	margin-bottom: 30px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	border-radius: 50%;
 	/* border: 3px solid white; */
 }
 
 #colorlib-aside .author-img img{
 	height: 100%;
     object-fit: contain;
+		border-radius: 50%;
 	padding: 30px;
 }
 #colorlib-aside h1 {
@@ -208,6 +204,7 @@ figure figcaption {
 	color: #000;
 	padding-right: 0.3em;
 }
+
 #colorlib-aside #colorlib-main-menu {
 	display: block;
 	width: 100%;
@@ -2239,4 +2236,10 @@ span {
 	padding-bottom: 10px;
     text-align: right;
     font-weight: 600;
+}
+.resume-link {
+	font-weight: bold;
+	border: 1.5px solid black;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
 }
