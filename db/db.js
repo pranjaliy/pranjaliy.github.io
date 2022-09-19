@@ -3,7 +3,9 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Pranjali Yadav. I’m currently working as Data Analyst in the Advance Analytics team for Georgia Pacific LLC. I mostly work on creating KPIs, engineering data to create tools for reporting and building predictive machine learning models. I have a master's degree from Penn State, University Park.",
+				"I'm Pranjali Yadav. I’m currently working as Data Analyst in the Advance Analytics team for Georgia Pacific LLC.",
+				"I mostly work on creating KPIs, engineering data to create tools for reporting and building predictive machine learning models.",
+				"I have a master's degree from Penn State, University Park and a Bachelors degree in Machanical Engineering.",
 				"I love to learn new things.",
 				"I love to read, listen to music, and travel.",
 			],
@@ -17,55 +19,37 @@ export default {
 	skills: [
 		{
 			title: "Languages",
-			skillName: "Python, R, MATLAB, MySql",
+			skillName: "Python, R, MATLAB, MySql, Pyspark",
 			color: "1",
 			percentage: "80",
 		},
 		{
-			title: "Frameworks/Libraries",
-			skillName: "Angular, Reactjs",
+			title: "Deployment Tools",
+			skillName: "Docker, Github, RestAPI, FastAPI",
 			color: "6",
-			percentage: "50",
+			percentage: "65",
 		},
 		{
-			title: "Backend",
-			skillName: "Nodejs, MongoDB",
+			title: "Visualization Tools",
+			skillName: "Power BI, Tableau, Alteryx",
 			color: "2",
-			percentage: "40",
+			percentage: "90",
 		},
 		{
-			title: "Clouds",
-			skillName: "AWS(EC2, S3), Heroku, Netlify",
+			title: "Other Tools",
+			skillName: "Amazon Redshift, Microsoft Azure, Confluence, Jira",
 			color: "3",
-			percentage: "30",
-		},
-		{
-			title: "Design",
-			skillName: "HTML, Bootstrap, SCSS",
-			color: "4",
 			percentage: "70",
 		},
 		{
-			title: "Version Control",
-			skillName: "GitHub, JIRA, Trello",
-			color: "7",
-			percentage: "70",
-		},
-		{
-			title: "Tools",
-			skillName: "Postman, Chrome DevTools",
-			color: "3",
-			percentage: "80",
-		},
-		{
-			title: "Saas products",
-			skillName: "CleverTap, FreshDesk",
+			title: "Experience",
+			skillName: "Machine Learning, NLP, Neural Networks, Statistics",
 			color: "5",
-			percentage: "50",
+			percentage: "90",
 		},
 		{
 			title: "Editor",
-			skillName: "VS Code",
+			skillName: "VS Code, Atom",
 			color: "6",
 			percentage: "70",
 		},
@@ -165,7 +149,9 @@ export default {
 			duration: "October 2021 - Present",
 			subtitle: "Georgia Pacific LLC",
 			details: [
-				"Working on the products in the healthcare/digital therapeutics domain."
+				"Developed time series forecasting model using ARIMA and Machine Learning to predict production and reduced RMSE by 9%."
+				"Designed 7 diagnostic tools by engineering complex data and analysing key parameters that affect performance to report Inventory, Out-of-Mode and Production data models to improve productivity by 91%.",
+				"Analyzed existing data models to centralize and automate them, find trends, built statistical models to provide in depth analysis and recommendations to key stakeholders.",
 			],
 			tags: [
 				"PowerBi",
@@ -173,17 +159,16 @@ export default {
 				"AmazonRedshift",
 				"DAX",
 			],
-			icon: " ",
+			icon: "file",
 		},
 		{
 			title: "Data Scientist",
 			duration: "Jan 2021 - Jun 2021",
 			subtitle: "Ahold Delhaize",
 			details: [
-				"Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
-				"Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
-				"Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
-			],
+				"Developed Named Entity Recognition(NER) transformer model using BERT embedding to improve the search recommendation of e-commerce website to improve cosine similarity score for 1000+ unique products.",
+				"Constructed clusters for 1000+ unique retail products with various unsupervised learning methods like TSNE, DBSCAN to visualize effect of new transformer model.",
+				],
 			tags: [
 				"NLP",
 				"BERT",
@@ -199,10 +184,11 @@ export default {
 			duration: "Jun 2020 - Dec 2021",
 			subtitle: "Ahold Delhaize",
 			details: [
-				"Worked as a full stack developer to support tech team.",
-				"Developed a customer Web Application from scratch for social media management.",
+				"Developed machine learning based prediction model for On-Time In-Full delivery of inbound loads for third largest US grocery business with 91% recall and 86% accuracy.",
+				"Identified the source of data in Azure data lake, designed pipelines for ETL (Extract,Transform,Load) and selected important features using p-value < 0.05 .",
+				"COVID 19 Disruption Analysis: Designed an interactive dashboard to study changes before,during and after in working hours and productivity of 2000+ employees.",
 			],
-			tags: ["Azure"],
+			tags: ["Azure","Machine Learning","Pyspark","Confluence/Jira"],
 			icon: "group",
 		},
 	],
@@ -212,17 +198,15 @@ export default {
 			duration: "Aug 2019 - Aug 2021",
 			subtitle: "Penn State, University Park",
 			details: [
-				"Qualified GATE-2020.",
-				"Active Competitive Programmer with CodeChef Rating 1841*.",
-				"Received 500+ stars and 300+ forks on GitHub projects.",
+
 			],
 			tags: [
-				"Data Structures & Algorithms",
-				"Operating Systems",
-				"Database Management System",
-				"Computer Networks",
-				"Compiler Designing",
-				"Cloud Computing",
+				"Machine Learning & Pattern Recognition",
+				"Data Mining",
+				"Linear Programming",
+				"Advanced Engineering Analytics",
+				"Supply Chain Engineering",
+				"Design of Experiments",
 			],
 			icon: "graduation-cap",
 		},
@@ -231,17 +215,15 @@ export default {
 			duration: "Aug 2015 - May 2019",
 			subtitle: "Pune University,IND",
 			details: [
-				"Qualified GATE-2020.",
-				"Active Competitive Programmer with CodeChef Rating 1841*.",
-				"Received 500+ stars and 300+ forks on GitHub projects.",
+
 			],
 			tags: [
-				"Data Structures & Algorithms",
-				"Operating Systems",
-				"Database Management System",
-				"Computer Networks",
-				"Compiler Designing",
-				"Cloud Computing",
+				"Thermodynamics",
+				"Fluid Mechanics",
+				"Material Engineering",
+				"Heat Transfer",
+				"Mathematics",
+				"Strength and Design of Material",
 			],
 			icon: "graduation-cap",
 		},
@@ -287,7 +269,7 @@ export default {
 			data: [
 				{
 					text: "Linkedin",
-					link: "https://www.linkedin.com/in/vinaysomawat/",
+					link: "https://www.linkedin.com/in/pranjaliyadav/",
 				},
 
 			],
