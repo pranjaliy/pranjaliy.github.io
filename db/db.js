@@ -150,8 +150,6 @@ export default {
 			subtitle: "Georgia Pacific LLC",
 			details: [
 				"Developed time series forecasting model using ARIMA and Machine Learning to predict production and reduced RMSE by 9%."
-				"Designed 7 diagnostic tools by engineering complex data and analysing key parameters that affect performance to report Inventory, Out-of-Mode and Production data models to improve productivity by 91%.",
-				"Analyzed existing data models to centralize and automate them, find trends, built statistical models to provide in depth analysis and recommendations to key stakeholders.",
 			],
 			tags: [
 				"PowerBi",
@@ -159,7 +157,7 @@ export default {
 				"AmazonRedshift",
 				"DAX",
 			],
-			icon: "file",
+			icon: " ",
 		},
 		{
 			title: "Data Scientist",
