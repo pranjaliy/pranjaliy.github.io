@@ -300,8 +300,7 @@ fetchBlogsFromMedium();
 
 populateProjects(data.projects.ml, "ml-projects");
 populateProjects(data.projects.nn, "nn-projects");
-populateProjects(data.projects.other, "other-projects");
-populateProjects(data.projects.statistics, "statistics-projects");
+
 
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.education, "education");

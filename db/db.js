@@ -58,7 +58,7 @@ export default {
 		ml: [
 			{
 				projectName: "Regression",
-				image: "images/programmingdiaries.png",
+				image: "images/",
 				summary:
 					"Bread and butter of Machine Learning",
 				preview: "https://github.com/pranjaliy/machine-learning/",
@@ -69,80 +69,20 @@ export default {
 					"Rest API",
 				],
 			},
-			{
-				projectName: "Classification",
-				image: "images/findyourbank.png",
-				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-				preview: "https://clever-fermi-0d5d76.netlify.app",
-				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-			},
-			{
-				projectName: "Decision Tree",
-				image: "images/portfolio.png",
-				summary:
-					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-				preview: "https://github.com/vinaysomawat/Travographer-Portal",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
-			},
-			{
-				projectName: "Unsupervised Learning",
-				image: "images/resume-builder.png",
-				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
-				preview: "https://vinaysomawat.github.io/Resume-Builder",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
-			},
 		],
 		nn: [
 			{
-				projectName: "Image Classification",
-				image: "images/pizzaorderchatbot.png",
+				projectName: "Rapid Constraints Topology Optimization using Deep Neural Network",
+				image: "images/",
 				summary:
-					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+					"Exploring the effectiveness of deep generative models on topology optimization problems in additive manufacturing field",
 				preview:
-					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-				techStack: ["Dailogflow", "Firebase"],
+					"https://engrxiv.org/preprint/view/1231/2563",
+				techStack: ["cnn", "GAN","U-Net"],
 			},
 		],
-		other: [
-			{
-				projectName: "NLP",
-				image: "images/nitwcse.jpg",
-				summary:
-					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
-				preview: "https://github.com/vinaysomawat/NITW-CSE",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-			{
-				projectName: "Time Series Modelling",
-				image: "images/carrerhigh.png",
-				summary:
-					"The Application display the webpages of website careerhigh.in in android devices.",
-				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-		],
-		statistics: [
-			{
-				projectName: "Hypothesis Testing",
-				image: "images/snylloair.png",
-				summary:
-					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-				preview: "https://www.snylloair.com/",
-				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-			},
-			{
-				projectName: "Probability",
-				image: "images/AM-Logo-.png",
-				summary:
-					"Android Application to display website in android devices.",
-				preview:
-					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-				techStack: ["Android", "JAVA", "Play Store"],
-			},
-		],
-	},
+	}
+
 	experience: [
 		{
 			title: "Data Scientist",
@@ -157,7 +97,7 @@ export default {
 				"AmazonRedshift",
 				"DAX",
 			],
-			icon: " ",
+			icon: "group",
 		},
 		{
 			title: "Data Scientist",
@@ -175,7 +115,7 @@ export default {
 				"NER",
 				"Pyspark",
 			],
-			icon: "qrcode",
+			icon: "group",
 		},
 		{
 			title: "Supply Chain Analyst",
@@ -195,9 +135,7 @@ export default {
 			title: "Master's of Science in Industrial Engineering",
 			duration: "Aug 2019 - Aug 2021",
 			subtitle: "Penn State, University Park",
-			details: [
-
-			],
+			details: [	],
 			tags: [
 				"Machine Learning & Pattern Recognition",
 				"Data Mining",
