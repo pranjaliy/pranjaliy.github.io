@@ -58,7 +58,7 @@ export default {
 		ml: [
 			{
 				projectName: "Regression",
-				image: "images/",
+				image: "images/ml.png",
 				summary:
 					"Bread and butter of Machine Learning",
 				preview: "https://github.com/pranjaliy/machine-learning/",
@@ -73,11 +73,11 @@ export default {
 		nn: [
 			{
 				projectName: "Rapid Constraints Topology Optimization using Deep Neural Network",
-				image: "images/",
+				image: "images/nn.png",
 				summary:
 					"Exploring the effectiveness of deep generative models on topology optimization problems in additive manufacturing field",
 				preview:
-					"https://engrxiv.org/preprint/view/1231/2563",
+					"",
 				techStack: ["cnn", "GAN","U-Net"],
 			},
 		],
