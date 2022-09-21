@@ -81,8 +81,7 @@ export default {
 				techStack: ["cnn", "GAN","U-Net"],
 			},
 		],
-	}
-
+	},
 	experience: [
 		{
 			title: "Data Scientist",
@@ -130,6 +129,7 @@ export default {
 			icon: "group",
 		},
 	],
+
 	education: [
 		{
 			title: "Master's of Science in Industrial Engineering",
